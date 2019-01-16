@@ -8,7 +8,8 @@
     },
     "autoload": {
         "psr-4": {
-            "TestSite\\": "./src\\"
+            "TestSite\\": "./src\\",
+            "SoapClient\\": "./SoapClient\\"
         }
     },
     "config": {
