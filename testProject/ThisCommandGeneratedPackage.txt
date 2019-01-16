@@ -1,0 +1,2 @@
+
+c:\php_7.3\php.exe ./wsdltophp.phar generate:package --urlorpath="http://soapclient.com/xml/SQLDataSoap.WSDL" --destination="C:\testProject"  --composer-name="myproject/mypackage" --composer-settings="config.disable-tls:true"  --namespace="TestSite" --validation=false --soapclient="\SoapClient\SoapClient" --force

@@ -1,0 +1,17 @@
+{
+    "name": "myproject/mypackage",
+    "description": "Package generated from http://soapclient.com/xml/SQLDataSoap.WSDL using wsdltophp/packagegenerator",
+    "require": {
+        "php": ">=5.3.3",
+        "ext-soap": "*",
+        "wsdltophp/packagebase": "~1.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TestSite\\": "./src\\"
+        }
+    },
+    "config": {
+        "disable-tls": true
+    }
+}
